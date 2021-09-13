@@ -293,7 +293,6 @@ D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\MyCompany.RazorCoreGenera
 D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Shared\CssPartial.cshtml.g.cs
 D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Shared\FooterPartial.cshtml.g.cs
 D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Shared\HeaderPartial.cshtml.g.cs
-D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Shared\Index.cshtml.g.cs
 D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Shared\MetatagsPartial.cshtml.g.cs
 D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Shared\ScriptsPartial.cshtml.g.cs
 D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Shared\SidebarPartial.cshtml.g.cs
@@ -319,3 +318,8 @@ D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Areas\Admin\Views\_
 D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Areas\Admin\Views\TextFields\Edit.cshtml.g.cs
 D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Areas\Admin\Views\ServiceItems\Edit.cshtml.g.cs
+D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Home\Contacts.cshtml.g.cs
+D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Services\Index.cshtml.g.cs
+D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Services\Show.cshtml.g.cs
+D:\Projects\github\TestSite\MyCompany\obj\Debug\net5.0\Razor\Views\Shared\Components\Sidebar\Default.cshtml.g.cs

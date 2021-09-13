@@ -1,13 +1,26 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyCompany.Areas.Admin.Controllers;
+using MyCompany.Domain;
 
 namespace MyCompany.Controllers
 {
-    public class Home : Controller
+    public class HomeController : Controller
     {
-        // GET
+        private readonly DataManager dataManager;
+
+        public HomeController(DataManager dataManager)
+        {
+            this.dataManager = dataManager;
+        }
+        
         public IActionResult Index()
         {
-            return View();
+            return View(dataManager.TextFields.GetTextFieldByCodeWord("PageIndex"));
+        }
+        
+        public IActionResult Contacts()
+        {
+            return View(dataManager.TextFields.GetTextFieldByCodeWord("PageContacts"));
         }
     }
 }
