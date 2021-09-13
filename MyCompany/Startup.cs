@@ -57,8 +57,17 @@ namespace MyCompany
                 options.SlidingExpiration = true;
             });
 
+            //настройка политики авторизации для Admin area
+            services.AddAuthorization(x =>
+            {
+                x.AddPolicy("AdminArea", policy => { policy.RequireRole("admin"); });
+            });
+
             //добавление поддержки контроллеров и представлений (MVC)
-            services.AddControllersWithViews()
+            services.AddControllersWithViews(x =>
+                {
+                    x.Conventions.Add(new AdminAreaAuthorization("Admin", "AdminArea"));
+                })
                 //добавление совместимости с последней версией asp.net core mvc
                 .SetCompatibilityVersion(CompatibilityVersion.Latest).AddSessionStateTempDataProvider();
         }
@@ -85,6 +94,7 @@ namespace MyCompany
             //регистрация нужных маршрутов (эндпоинтов)
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute("admin", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
         }

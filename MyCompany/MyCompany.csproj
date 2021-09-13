@@ -5,13 +5,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Areas\Admin\Controllers" />
-      <Folder Include="Areas\Admin\Views" />
       <Folder Include="Models\ViewComponents" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.9" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9">
         <PrivateAssets>all</PrivateAssets>
